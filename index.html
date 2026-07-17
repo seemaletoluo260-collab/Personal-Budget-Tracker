@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135706.png"
+         alt="Budget Tracker Logo"
+         width="70">
+
+    <h1>Personal Budget Tracker</h1>
+
+    <p>Track your daily expenses easily.</p>
+</header>
+
+<section class="add-expense-section">
+
+<h2>Add Expense</h2>
+
+<form>
+
+<label for="expense-name">Expense Name</label><br>
+<input type="text"
+id="expense-name"
+placeholder="Expense Name">
+
+<br><br>
+
+<label for="expense-amount">Amount</label><br>
+<input type="number"
+id="expense-amount"
+placeholder="Amount">
+
+<br><br>
+
+<label for="expense-category">Category</label><br>
+
+<select id="expense-category">
+
+<option>Food</option>
+<option>Transport</option>
+<option>Rent</option>
+<option>Entertainment</option>
+<option>Other</option>
+
+</select>
+
+<br><br>
+
+<label for="expense-date">Date</label><br>
+
+<input
+type="date"
+id="expense-date">
+
+<br><br>
+
+<button type="button">
+
+Add Expense
+
+</button>
+
+</form>
+
+</section>
+
+<hr>
+
+<section class="expenses-section">
+
+<h2>Expense Records</h2>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Name</th>
+
+<th>Amount</th>
+
+<th>Category</th>
+
+<th>Date</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Groceries</td>
+
+<td>$55</td>
+
+<td>Food</td>
+
+<td>2026-07-10</td>
+
+</tr>
+
+<tr>
+
+<td>Taxi</td>
+
+<td>$20</td>
+
+<td>Transport</td>
+
+<td>2026-07-11</td>
+
+</tr>
+
+<tr>
+
+<td>Netflix</td>
+
+<td>$15</td>
+
+<td>Entertainment</td>
+
+<td>2026-07-12</td>
+
+</tr>
+
+<tr>
+
+<td>Apartment Rent</td>
+
+<td>$450</td>
+
+<td>Rent</td>
+
+<td>2026-07-01</td>
+
+</tr>
+
+<tr>
+
+<td>Phone Charger</td>
+
+<td>$18</td>
+
+<td>Other</td>
+
+<td>2026-07-13</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<hr>
+
+<section>
+
+<h2>Budgeting Tips</h2>
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/HQzoZfc3GwQ"
+title="Budgeting Tips"
+frameborder="0"
+allowfullscreen>
+
+</iframe>
+
+</section>
+
+<hr>
+
+<details>
+
+<summary>
+
+How to use this tracker
+
+</summary>
+
+<p>
+
+Enter your expense details in the form above.
+
+Click "Add Expense" (JavaScript functionality will be added in a later assignment).
+
+Use the expense table to keep track of your spending.
+
+</p>
+
+</details>
+
+<footer>
+
+<p>
+
+© 2026 Budget Tracker
+
+</p>
+
+</footer>
+
+</body>
+</html>
